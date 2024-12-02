@@ -1,0 +1,143 @@
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+body #cardh {
+    background-color: #886586;
+    padding-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+#nav {
+    background-color: #8174a0;
+}
+
+.navbar a {
+    color: #ffd2a0;
+    font-weight: bold;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    background-color: black;
+    color: #8274a0;
+}
+
+.nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: blueviolet;
+}
+
+.navbar-text a {
+    color: blue;
+    text-decoration: none;
+}
+
+.container-fluid img {
+    height: 5vh;
+}
+
+#car {
+    display: grid;
+    background-color: #d0e8c6;
+}
+
+.col-lg-6.mx-auto .btn-primary {
+    background-color: #8274a0;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+.col-lg-6.mx-auto p {
+    color: #cb3ec2;
+    font-weight: bold;
+}
+
+#cards {
+    background-color: #886586;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    flex-flow: wrap;
+}
+
+.card {
+    margin-bottom: 10%;
+}
+
+.card img {
+    width: 100%;
+    height: 35vh;
+}
+
+footer {
+    padding: 2% 2%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin: auto;
+}
+
+footer .list-group.list-group-flush li {
+    background-color: gray;
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+}
+
+footer .list-group.list-group-flush li:hover {
+    background-color: black;
+}
+
+#car1 {
+    margin: 0 0;
+    background: url(../img/main-bg.png), #913131;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+}
+
+.px-4.py-5.my-0.text-center.bg-image {
+    height: 85vh;
+}
+
+.display-5.fw-bold {
+    color: #807070;
+}
+
+.d-block.w-100 {
+    width: 90vw;
+    height: 90vh;
+}
+
+footer .list-group.list-group-flush .list-group-item {
+    color: aqua;
+}
+#last{
+    background-color: black;
+    padding: 2% 2%;
+}
+#last div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+}
+#last h4{
+    color: wheat;
+}
+#last a{
+    text-decoration: none;
+    color: wheat;
+}#last i{
+    font-size: larger;
+}
